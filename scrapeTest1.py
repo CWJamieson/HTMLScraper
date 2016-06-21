@@ -41,10 +41,6 @@ for i in range(0,length):
     if(curRooms[len(curRooms)-1] == '-'):
         curRooms = curRooms[:2]
     print("Title:",curTitle,", price:",curPrice,", # of rooms:",curRooms)
-#print (length)
 
-
-#print ('Titles: ',title)
-#print ('prices: ',price)
-#print ('# of rooms: ',rooms)
+input("Press enter to exit")
 
