@@ -5,7 +5,7 @@ import unicodedata
 
 print ("hello world")
 
-page = requests.get("https://guelph.craigslist.ca/search/apa")
+page = requests.get("Generic URL")
 tree = html.fromstring(page.content)
 
 #copied from chrome
